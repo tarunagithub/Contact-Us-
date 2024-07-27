@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+
+body {
+    margin: 0px 115px;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    height: 30px;
+    border: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.nav-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+    width: 500px;
+    height: 15px;
+}
+
+.search-icon {
+    cursor: pointer;
+    width: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1 rem;
+    border: none;
+    margin-left: 10px;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+#icons {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 75px;
+    font-size: larger;
+}
+
+#icons i {
+    padding-right: 40px;
+    cursor: pointer;
+}
+
+.search-input {
+    width: 50px;
+    height: 15px;
+    font-size: 1rem;
+    border: none;
+    padding: 5px 10px;
+}
+
+.navbar-nav {
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.nav-item {
+    list-style-type: none;
+    font-size: small;
+    margin-right: 20px;
+}
+
+.nav-item a {
+    color: black;
+}
+
+.nav-item a:hover {
+    color: rgb(100, 234, 100);
+}
+
+.address {
+    width: 800px;
+    padding-top: 30px;
+    text-align: left;
+    display: flex;
+}
+
+#h1-heading {
+    font-size: large;
+}
+
+#h2-heading {
+    font-size: medium;
+}
+
+pre {
+    font-size: small;
+}
+
+.row {
+    display: flex;
+}
+
+.timing {
+    margin-left: 65px;
+}
+
+#para-timing {
+    font-size: 10px;
+    padding-top: 10px;
+}
+
+.form-container {
+    height: 450px;
+    width: 50%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f8fb;
+    position: relative;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 15px 0px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+button {
+    background-color: rgb(56, 231, 56);
+    padding-right: 10px;
+    padding-bottom: 10px;
+    right: 20px;
+    bottom: 20px;
+    border: none;
+    position: absolute;
+    border-radius: 5px;
+    color: white;
+}
+
+#home {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.address-header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.address-header i {
+    color: rgb(37, 214, 37);
+}
+
+.details a:hover,
+i:hover {
+    color: green;
+}
+
+.details a {
+    font-size: small;
+    color: black;
+    text-decoration: none;
+}
+
+.store-address {
+    display: flex;
+    width: 400px;
+    padding-top: 10px;
+}
+
+.details {
+    padding-top: 10px;
+}
+
+.desc {
+    display: flex;
+    padding-top: 100px;
+}
+
+.useful-links {
+    list-style-type: none;
+    padding-top: 20px;
+}
+
+.useful-links a {
+    color: black;
+    text-decoration: none;
+    font-size: small;
+}
+
+.useful-links a:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.usefulLink {
+    width: 175px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.useful-links li {
+    margin-bottom: 20px;
+    font-size: small;
+}
+
+.copyright {
+    display: flex;
+    font-size: small;
+    color: grey;
+    padding-top: 20px;
+}
+
+.details i:hover {
+    cursor: pointer;
+}
+
+#contact {
+    padding-top: 30px;
+}
